@@ -16,7 +16,6 @@ public class Main {
 
         for (int i = 0; i < countNumber; i++) {
             a = uI % 10;
-//            b = uI /10;
             uI = uI / 10;
             finalResult = finalResult + a;
         }
