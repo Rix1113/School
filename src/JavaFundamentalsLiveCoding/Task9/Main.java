@@ -29,7 +29,7 @@ public class Main {
             for (j = wave_heigth; j <= wave_heigth + i; j++)
                 System.out.print(" ");
 
-            /* Wave lenght */
+            /* Wave length */
             for (count = 1; count <= wave_length; count++)
             {
                /* Spaces */
