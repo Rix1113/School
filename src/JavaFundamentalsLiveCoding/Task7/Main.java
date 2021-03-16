@@ -9,7 +9,7 @@ public class Main {
         int input = scanner.nextInt();
 
         int count = 1;
-        int a = 0, b = 1, sum = 0;
+        int a = 0, b = 1, sum;
         while (count <= input) {
             if (count == input) {
                 System.out.println(input + " fibonacci number is " +a);
