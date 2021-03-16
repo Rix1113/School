@@ -1,6 +1,5 @@
 package JavaFundamentalsLiveCoding.Task8;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Main {
@@ -58,10 +57,7 @@ public class Main {
 
     /* Is operant is true */
     public static boolean isTrue(String operant) {
-        if ((operant.equals("+")) || (operant.equals("-")) || (operant.equals("*")) || (operant.equals("/"))) {
-            return true;
-        }
-        return false;
+        return (operant.equals("+")) || (operant.equals("-")) || (operant.equals("*")) || (operant.equals("/"));
     }
 
 }
