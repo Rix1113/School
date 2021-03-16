@@ -10,13 +10,13 @@ public class Main {
         int countNumber = getLength(userInput);
 
 
-        int a, b = 0;
+        int a;
         int finalResult = 0;
         int uI = userInput;
 
         for (int i = 0; i < countNumber; i++) {
             a = uI % 10;
-            b = uI /10;
+//            b = uI /10;
             uI = uI / 10;
             finalResult = finalResult + a;
         }
