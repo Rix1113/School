@@ -1,3 +1,6 @@
+// Take positive int and calc FIBO number.
+
+
 package JavaFundamentalsLiveCoding.Task7;
 
 import java.util.Scanner;
