@@ -1,3 +1,5 @@
+// Hn = 1 + 1/2 + 1/3 +1/4 + ... + 1/n
+
 package JavaFundamentalsLiveCoding.Task6;
 
 import java.util.Scanner;
