@@ -5,13 +5,13 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 public class GetOne {
-
     public void getOne() throws IOException {
 
         Scanner scanner = new Scanner(System.in);
+        Menu menu = new Menu();
 
         //Faili asukoht
-        String filePath = FileName.getUserInputFileName();
+        String filePath = "Text.txt";
         HashMap<String, String> map = new HashMap<>();
 
         String line;
@@ -26,13 +26,13 @@ public class GetOne {
                 System.out.println("ignoring line: " + line);
             }
         }
-        //Toob üksikult k6ik v4lja
+        //Toob yksikult k6ik v4lja
         System.out.print("\nEnter English word: ");
         String key = scanner.nextLine();
-        System.out.println(key + " - " + map.get(key));
+            System.out.println(key + " - " + map.get(key));
         reader.close();
 
-        //jätkamiseks vajalik valik
+        //j4tkamiseks vajalik valik
         System.out.println("\nAre you want continue (y/n)?");
         String answer = scanner.nextLine();
 
@@ -42,7 +42,7 @@ public class GetOne {
                 getOne();
             case "n":
             case "N":
-                Menu.menu();
+                menu.menu();
         }
     }
 
