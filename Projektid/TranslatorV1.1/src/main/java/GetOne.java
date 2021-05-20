@@ -6,7 +6,6 @@ import java.util.Scanner;
 
 public class GetOne {
 
-
     public void getOne() throws IOException {
 
         Scanner scanner = new Scanner(System.in);
